@@ -99,8 +99,44 @@ class Student extends Person {
           });
 
 
-
-
           
+          const shayla = new Person({
+            name: 'Shayla',
+            location: 'Florida',
+            age: 40,
+            favLanguage: 'C++',
+            specialty: 'Drupal',
+            catchPhrase: `This is just ridiculous`
+          });
+
+
+          const samantha = new ProjectManagers({
+            name: 'Samantha',
+            location: 'Georgia',
+            age: 32,
+            favLanguage: 'C++',
+            specialty: 'Drupal',
+            catchPhrase: `This is just ridiculous`
+          });
+
+
+
+
+
+
+        //   Test the code.
+
+        // Person code test
+        shayla.speak();  
+    
+        //   Student code test
         rafael.demo("iOS");
-        rafael.grade(cecil, "Swift")
+        rafael.grade(cecil, "Swift");
+        
+        // Instructor code test
+        cecil.PRAssignment("Swift");
+        cecil.sprintChallenge("Swift");
+
+        // Project Manager code test
+        samantha.standUp("Web21");
+        samantha.debugsCode(rafael,"note-taking");
